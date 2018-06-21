@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
    "bin": {
-     "snippet": "./seather.js"
+     "seather": "./seather.js"
    },
   "author": "Scott Lindh",
   "license": "ISC",
