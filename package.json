@@ -1,0 +1,24 @@
+{
+  "name": "seather",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Scott Lindh",
+  "license": "ISC",
+  "keywords": [
+    "pixledrain",
+    "sia",
+    "filecoin",
+    "storj",
+    "IOTA"
+  ],
+  "description": "Decentralised file storage, upload and download.",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "crypto": "^1.0.1",
+    "request": "^2.87.0"
+  }
+}
