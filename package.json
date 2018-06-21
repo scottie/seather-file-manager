@@ -1,11 +1,14 @@
 {
   "name": "seather",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "seather.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+   "bin": {
+     "snippet": "./seather.js"
+   },
   "author": "Scott Lindh",
   "license": "ISC",
   "keywords": [
