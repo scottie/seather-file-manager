@@ -39,7 +39,7 @@ var baseurl = "https://sia.pixeldrain.com";
             // Encrypt file.
           var fileName = file + ".enc";
 
-            encrypt.file(file, key)
+            encrypt.file(file, key, "AES-256-CBC")
             .then(() => {
                 //decrypt.file('./arg.js.enc','mafasd');
                   console.log('[FILE]: %s', fileName);
@@ -90,7 +90,7 @@ var baseurl = "https://sia.pixeldrain.com";
         fileDownload(id, function(res){
           if(!res.error){
                 // Decrypt file.
-                decrypt.file(res.data, key)
+                decrypt.file(res.data, key, "AES-256-CBC")
                 .then(() => {
                     console.log("File download and decription a success !");
                 });
