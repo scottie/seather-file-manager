@@ -36,7 +36,8 @@ var baseurl = "https://sia.pixeldrain.com";
           console.log("Encryption Key: " + key);
           //var fileName = file + "." + randint + '.encrypted.dat';
           //console.log("Encrypted File Name: " + fileName);
-            // Encrypt file.
+            // Encrypt file.ls
+
           var fileName = file + ".enc";
 
             encrypt.file(file, key, "AES-256-CBC")
