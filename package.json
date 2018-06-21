@@ -1,7 +1,7 @@
 {
   "name": "seather",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "seather.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -17,6 +17,7 @@
   ],
   "description": "Decentralised file storage, upload and download.",
   "dependencies": {
+    "cifra": "0.0.3",
     "commander": "^2.15.1",
     "crypto": "^1.0.1",
     "request": "^2.87.0"

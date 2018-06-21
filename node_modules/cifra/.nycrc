@@ -1,0 +1,6 @@
+{
+  "nyc": {
+    "include": ["./bin", "lib"],
+    "exclude": ["node_modules"]
+  }
+}
